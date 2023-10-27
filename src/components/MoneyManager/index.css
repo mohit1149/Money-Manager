@@ -1,0 +1,106 @@
+/* Write your CSS here */
+.back-page {
+  margin-left: 10vw;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 23vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 59%;
+}
+.background {
+  margin-left: 50px;
+}
+.money {
+  color: #0b69ff;
+  font-weight: 700;
+}
+.middle-container {
+  display: flex;
+}
+.add-transaction-container {
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 40px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-text {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.add-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.title {
+  height: 30px;
+  color: #7e858e;
+  font-family: 'Roboto';
+  outline: none;
+  border-radius: 3px;
+  border-color: #cbd5e1;
+  border-style: solid;
+  margin-bottom: 6px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.button-add {
+  background-color: #7c3aed;
+  border-radius: 5px;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 12px;
+  width: 60px;
+  height: 30px;
+}
+.right-side-container {
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-radius: 10px;
+  border-width: 4px;
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 28vw;
+  padding: 30px;
+}
+.heading-history {
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.transaction-list-container {
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-radius: 10px;
+  border-width: 4px;
+  height: 50vh;
+}
+.list-heading-container {
+  display: flex;
+}
+.list-paragraph-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.unordered-list-container {
+  padding-left: 0px;
+  padding-top: 0px;
+}
